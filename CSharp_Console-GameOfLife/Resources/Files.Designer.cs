@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CSharp_Console_GOL.Resources {
+namespace CSharp_Console_GameOfLife.Resources {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace CSharp_Console_GOL.Resources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CSharp_Console_GOL.Resources.Files", typeof(Files).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CSharp_Console_GameOfLife.Resources.Files", typeof(Files).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,6 @@ namespace CSharp_Console_GOL.Resources {
         }
         
         /// <summary>
-<<<<<<< HEAD
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream Daydream {
@@ -71,10 +70,7 @@ namespace CSharp_Console_GOL.Resources {
         }
         
         /// <summary>
-=======
->>>>>>> 0db6a86897d0b23f563856e13c1bfaca705dab67
-        ///   Looks up a localized string similar to 
-        ///.88b  d88. d88888b d8b   db db    db
+        ///   Looks up a localized string similar to .88b  d88. d88888b d8b   db db    db
         ///88&apos;YbdP`88 88&apos;     888o  88 88    88
         ///88  88  88 88ooooo 88V8o 88 88    88
         ///88  88  88 88~~~~~ 88 V8o88 88    88
@@ -86,7 +82,6 @@ namespace CSharp_Console_GOL.Resources {
                 return ResourceManager.GetString("MenuBanner", resourceCulture);
             }
         }
-<<<<<<< HEAD
         
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
@@ -105,7 +100,5 @@ namespace CSharp_Console_GOL.Resources {
                 return ResourceManager.GetStream("Viking", resourceCulture);
             }
         }
-=======
->>>>>>> 0db6a86897d0b23f563856e13c1bfaca705dab67
     }
 }

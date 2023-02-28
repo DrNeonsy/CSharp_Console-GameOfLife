@@ -117,30 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<<<<<<< HEAD
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Daydream" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Daydream.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-=======
->>>>>>> 0db6a86897d0b23f563856e13c1bfaca705dab67
   <data name="MenuBanner" xml:space="preserve">
-    <value>
-.88b  d88. d88888b d8b   db db    db
+    <value>.88b  d88. d88888b d8b   db db    db
 88'YbdP`88 88'     888o  88 88    88
 88  88  88 88ooooo 88V8o 88 88    88
 88  88  88 88~~~~~ 88 V8o88 88    88
 88  88  88 88.     88  V888 88b  d88
 YP  YP  YP Y88888P VP   V8P ~Y8888P'</value>
-    <comment>Main Menu String Banner</comment>
   </data>
-<<<<<<< HEAD
   <data name="Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Space.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Viking" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Viking.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-=======
->>>>>>> 0db6a86897d0b23f563856e13c1bfaca705dab67
 </root>

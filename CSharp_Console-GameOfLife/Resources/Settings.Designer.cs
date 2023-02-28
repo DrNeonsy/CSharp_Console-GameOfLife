@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CSharp_Console_GOL.Resources {
+namespace CSharp_Console_GameOfLife.Resources {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

@@ -1,18 +1,11 @@
-<<<<<<< HEAD
-﻿using CSharp_Console_GOL.Resources;
+﻿using CSharp_Console_GameOfLife.Resources;
 using System.Runtime.InteropServices;
-=======
-﻿using System.Runtime.InteropServices;
->>>>>>> 0db6a86897d0b23f563856e13c1bfaca705dab67
 
 namespace CSharp_Console_GOL
 {
     internal partial class Util
     {
-<<<<<<< HEAD
-        static System.Media.SoundPlayer player = new();
-=======
->>>>>>> 0db6a86897d0b23f563856e13c1bfaca705dab67
+        static readonly System.Media.SoundPlayer player = new();
         #region Code To Maximize Console
         [LibraryImport("kernel32.dll")]
         private static partial IntPtr GetConsoleWindow();
@@ -54,7 +47,6 @@ namespace CSharp_Console_GOL
 
             return ckey == option1;
         }
-<<<<<<< HEAD
 
         internal static void InitMusic()
         {
@@ -100,8 +92,5 @@ namespace CSharp_Console_GOL
                     break;
             }
         }
-
-=======
->>>>>>> 0db6a86897d0b23f563856e13c1bfaca705dab67
     }
 }

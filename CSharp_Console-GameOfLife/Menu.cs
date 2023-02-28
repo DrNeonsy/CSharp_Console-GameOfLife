@@ -1,4 +1,4 @@
-﻿using CSharp_Console_GOL.Resources;
+﻿using CSharp_Console_GameOfLife.Resources;
 
 namespace CSharp_Console_GOL
 {
@@ -8,15 +8,9 @@ namespace CSharp_Console_GOL
         private static readonly List<Option> options = new()
         {
                 new Option("Start", () => Game.Play()),
-<<<<<<< HEAD
                 new Option("How To Play", () => Environment.Exit(0)),
                 new Option("Toggle Music", () => Util.Music(toggle: true)),
                 new Option("Change Music", () => Util.Music()),
-=======
-                new Option("How To Play", () => Game.Play()),
-                new Option("Toggle Music", () => Environment.Exit(0)),
-                new Option("Change Music", () => Environment.Exit(0)),
->>>>>>> 0db6a86897d0b23f563856e13c1bfaca705dab67
                 new Option("Change Color", () => Environment.Exit(0)),
                 new Option("Leave", () => Environment.Exit(0)),
         };
