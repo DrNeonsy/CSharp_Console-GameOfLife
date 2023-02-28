@@ -6,6 +6,7 @@
         private int height;
         private int width;
         #endregion
+
         #region Properties
         internal int Height
         {

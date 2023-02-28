@@ -8,10 +8,10 @@ namespace CSharp_Console_GOL
         private static readonly List<Option> options = new()
         {
                 new Option("Start", () => Game.Play()),
-                new Option("How To Play", () => Environment.Exit(0)),
-                new Option("Toggle Music", () => Util.Music(toggle: true)),
-                new Option("Change Music", () => Util.Music()),
-                new Option("Change Color", () => Environment.Exit(0)),
+                new Option("How To Play", () => Util.HowToPlay()),
+                new Option("Toggle Music", () => Util.ToggleMusic()),
+                new Option("Change Music", () => Util.ChangeMusic()),
+                new Option("Change Color", () => Util.ChangeColor()),
                 new Option("Leave", () => Environment.Exit(0)),
         };
         #endregion

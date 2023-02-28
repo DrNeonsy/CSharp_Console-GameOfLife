@@ -54,26 +54,35 @@ namespace CSharp_Console_GOL
             player.PlayLooping();
         }
 
-        internal static void Music(bool toggle = false)
+        internal static void ToggleMusic()
         {
-            if (toggle)
+            if (Settings.Default.musicOn)
             {
-                if (Settings.Default.musicOn)
-                {
-                    player.Stop();
-                    Settings.Default.musicOn = false;
-                }
-                else
-                {
-                    player.PlayLooping();
-                    Settings.Default.musicOn = true;
-                }
+                player.Stop();
+                Settings.Default.musicOn = false;
+                Settings.Default.Save();
             }
             else
             {
-                SongSelecter(true);
                 player.PlayLooping();
+                Settings.Default.musicOn = true;
+                Settings.Default.Save();
             }
+        }
+
+        internal static void ChangeMusic()
+        {
+
+        }
+
+        internal static void ChangeColor()
+        {
+
+        }
+
+        internal static void HowToPlay()
+        {
+
         }
 
         private static void SongSelecter(bool s = false)
